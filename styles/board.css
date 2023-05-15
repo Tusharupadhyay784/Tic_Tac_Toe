@@ -1,0 +1,28 @@
+.container {
+    border: 2px solid black;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 70dvh; */
+    border: 2px solid blue;
+
+}
+
+.board>div {
+    border: 2px solid cadetblue;
+    height: 8dvh;
+    width: 5dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
